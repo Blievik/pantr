@@ -1,0 +1,6 @@
+# Copy this file to .dev.vars for local testing (npm run dev).
+# .dev.vars is in .gitignore so your key never gets committed.
+# Leave the key out to test free on-device scanning.
+ANTHROPIC_API_KEY=sk-ant-your-key-here
+# Optional: require a code before anyone can use AI scanning or custom recipes
+# ACCESS_CODE=pick-something

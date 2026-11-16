@@ -1,0 +1,14 @@
+{
+  "name": "pantr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PantR: track your food, scan receipts, and use things up before they go bad.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "secret": "wrangler secret put ANTHROPIC_API_KEY"
+  },
+  "devDependencies": {
+    "wrangler": "^4.40.0"
+  }
+}
