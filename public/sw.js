@@ -1,6 +1,6 @@
 // PantR service worker: makes the app open offline, keeps the free receipt reader cached, and handles reminder taps.
 // Bump VERSION whenever you change files in /public so phones pick up the update.
-const VERSION = "pantr-v2";
+const VERSION = "pantr-v3";
 const SHELL = [
   "/",
   "/index.html",
